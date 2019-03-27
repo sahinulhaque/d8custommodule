@@ -1,0 +1,8 @@
+sahinul.pagej:
+  path: '/page_json/{apikey}/{node}'
+  defaults:
+    _controller: '\Drupal\sahinul\Controller\PjController::page_json'
+    _title: 'Page Json'
+  requirements:
+    _access: 'TRUE'
+    _entity_access: 'node.view'

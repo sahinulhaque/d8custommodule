@@ -1,0 +1,9 @@
+name: 'Sahinul Assignment Module'
+description: 'Alters Site Information Form and set API key. Url respond json output.' 
+package: 'Sahinul Haque Package'
+
+type: module
+core: 8.x
+
+dependencies:
+  - serialization
